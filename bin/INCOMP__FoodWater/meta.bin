@@ -1,0 +1,134 @@
+{
+  "fluid": "INCOMP::FoodWater",
+  "coolprop_version": "7.2.0",
+  "units": {
+    "temperature": "Kelvin",
+    "pressure": "Pascals",
+    "density": "kg/m3",
+    "cp": "J/kg/K",
+    "cv": "J/kg/K",
+    "enthalpy": "J/kg",
+    "entropy": "J/kg/K",
+    "internal_energy": "J/kg",
+    "viscosity": "Pa*s",
+    "conductivity": "W/m/K",
+    "prandtl": "dimensionless",
+    "float_precision": "Float32 for all grid and saturation data"
+  },
+  "critical_point": null,
+  "triple_point": null,
+  "valid_range": {
+    "T_min_K": 233.15,
+    "T_max_K": 423.15,
+    "P_max_Pa": 20000000.0
+  },
+  "phase_flags": {
+    "0": "Liquid",
+    "1": "Gas / Supercritical",
+    "2": "Two-phase",
+    "3": "Supercritical liquid",
+    "4": "Supercritical gas",
+    "255": "Failed / invalid"
+  },
+  "grid": {
+    "n_temperature_points": 500,
+    "n_pressure_points": 201,
+    "total_grid_points": 100500,
+    "pressure_bands": [
+      {
+        "band_index": 0,
+        "p_min": 101325.0,
+        "p_max": 163430.4205772682,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_000_101325Pa_163430Pa.json",
+        "bin_file": "grid_band_000_101325Pa_163430Pa.bin"
+      },
+      {
+        "band_index": 1,
+        "p_min": 167829.05007567527,
+        "p_max": 277982.6306370941,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_001_167829Pa_277983Pa.json",
+        "bin_file": "grid_band_001_167829Pa_277983Pa.bin"
+      },
+      {
+        "band_index": 2,
+        "p_min": 285464.36258666724,
+        "p_max": 472827.16805702914,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_002_285464Pa_472827Pa.json",
+        "bin_file": "grid_band_002_285464Pa_472827Pa.bin"
+      },
+      {
+        "band_index": 3,
+        "p_min": 485553.0211859501,
+        "p_max": 804242.8058920521,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_003_485553Pa_804243Pa.json",
+        "bin_file": "grid_band_003_485553Pa_804243Pa.bin"
+      },
+      {
+        "band_index": 4,
+        "p_min": 825888.5075758825,
+        "p_max": 1367955.4275339493,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_004_825889Pa_1367955Pa.json",
+        "bin_file": "grid_band_004_825889Pa_1367955Pa.bin"
+      },
+      {
+        "band_index": 5,
+        "p_min": 1404773.1085678916,
+        "p_max": 2326787.4303755546,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_005_1404773Pa_2326787Pa.json",
+        "bin_file": "grid_band_005_1404773Pa_2326787Pa.bin"
+      },
+      {
+        "band_index": 6,
+        "p_min": 2389411.4864822566,
+        "p_max": 3957687.2441769047,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_006_2389411Pa_3957687Pa.json",
+        "bin_file": "grid_band_006_2389411Pa_3957687Pa.bin"
+      },
+      {
+        "band_index": 7,
+        "p_min": 4064205.9681465067,
+        "p_max": 6731722.940497587,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_007_4064206Pa_6731723Pa.json",
+        "bin_file": "grid_band_007_4064206Pa_6731723Pa.bin"
+      },
+      {
+        "band_index": 8,
+        "p_min": 6912903.1332462,
+        "p_max": 11450145.236791201,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_008_6912903Pa_11450145Pa.json",
+        "bin_file": "grid_band_008_6912903Pa_11450145Pa.bin"
+      },
+      {
+        "band_index": 9,
+        "p_min": 11758318.870694218,
+        "p_max": 19475820.247278564,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_009_11758319Pa_19475820Pa.json",
+        "bin_file": "grid_band_009_11758319Pa_19475820Pa.bin"
+      },
+      {
+        "band_index": 10,
+        "p_min": 20000000.000000004,
+        "p_max": 20000000.000000004,
+        "n_pressure_pts": 1,
+        "json_file": "grid_band_010_20000000Pa_20000000Pa.json",
+        "bin_file": "grid_band_010_20000000Pa_20000000Pa.bin"
+      }
+    ]
+  },
+  "saturation_curve": {
+    "n_points": 0,
+    "file_json": null,
+    "file_bin": null
+  },
+  "mass_fraction": null
+}
