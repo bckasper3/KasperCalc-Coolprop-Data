@@ -1,0 +1,157 @@
+{
+  "fluid": "Helium",
+  "coolprop_version": "7.2.0",
+  "units": {
+    "temperature": "Kelvin",
+    "pressure": "Pascals",
+    "density": "kg/m3",
+    "cp": "J/kg/K",
+    "cv": "J/kg/K",
+    "enthalpy": "J/kg",
+    "entropy": "J/kg/K",
+    "internal_energy": "J/kg",
+    "viscosity": "Pa*s",
+    "conductivity": "W/m/K",
+    "prandtl": "dimensionless",
+    "float_precision": "Float32 for all grid and saturation data"
+  },
+  "critical_point": {
+    "T_K": 5.195300013635951,
+    "P_Pa": 228322.78921478678,
+    "rho_kg_m3": 69.58492718954426
+  },
+  "triple_point": {
+    "T_K": 2.1768,
+    "P_Pa": 5039.330380576783
+  },
+  "valid_range": {
+    "T_min_K": 2.1768,
+    "T_max_K": 2000.0,
+    "P_max_Pa": 1000000000.0
+  },
+  "phase_flags": {
+    "0": "Liquid",
+    "1": "Gas / Supercritical",
+    "2": "Two-phase",
+    "3": "Supercritical liquid",
+    "4": "Supercritical gas",
+    "255": "Failed / invalid"
+  },
+  "grid": {
+    "n_temperature_points": 550,
+    "n_pressure_points": 251,
+    "total_grid_points": 138050,
+    "pressure_bands": [
+      {
+        "band_index": 0,
+        "p_min": 5039.330380576785,
+        "p_max": 16150.145182174892,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_000_5039Pa_16150Pa.json",
+        "bin_file": "grid_band_000_5039Pa_16150Pa.bin"
+      },
+      {
+        "band_index": 1,
+        "p_min": 17171.082421152154,
+        "p_max": 55030.22288547753,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_001_17171Pa_55030Pa.json",
+        "bin_file": "grid_band_001_17171Pa_55030Pa.bin"
+      },
+      {
+        "band_index": 2,
+        "p_min": 58508.978226637686,
+        "p_max": 176361.94134709294,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_002_58509Pa_176362Pa.json",
+        "bin_file": "grid_band_002_58509Pa_176362Pa.bin"
+      },
+      {
+        "band_index": 3,
+        "p_min": 182658.23137182943,
+        "p_max": 212479.98343253628,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_003_182658Pa_212480Pa.json",
+        "bin_file": "grid_band_003_182658Pa_212480Pa.bin"
+      },
+      {
+        "band_index": 4,
+        "p_min": 214343.84293633045,
+        "p_max": 246029.45450083146,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_004_214344Pa_246029Pa.json",
+        "bin_file": "grid_band_004_214344Pa_246029Pa.bin"
+      },
+      {
+        "band_index": 5,
+        "p_min": 247893.31400462563,
+        "p_max": 325549.6938697961,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_005_247893Pa_325550Pa.json",
+        "bin_file": "grid_band_005_247893Pa_325550Pa.bin"
+      },
+      {
+        "band_index": 6,
+        "p_min": 346129.4349099051,
+        "p_max": 1109282.4251342893,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_006_346129Pa_1109282Pa.json",
+        "bin_file": "grid_band_006_346129Pa_1109282Pa.bin"
+      },
+      {
+        "band_index": 7,
+        "p_min": 1179406.1127908316,
+        "p_max": 3779783.9220329835,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_007_1179406Pa_3779784Pa.json",
+        "bin_file": "grid_band_007_1179406Pa_3779784Pa.bin"
+      },
+      {
+        "band_index": 8,
+        "p_min": 4018724.322739103,
+        "p_max": 12879286.801582053,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_008_4018724Pa_12879287Pa.json",
+        "bin_file": "grid_band_008_4018724Pa_12879287Pa.bin"
+      },
+      {
+        "band_index": 9,
+        "p_min": 13693455.551081354,
+        "p_max": 43885055.849485725,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_009_13693456Pa_43885056Pa.json",
+        "bin_file": "grid_band_009_13693456Pa_43885056Pa.bin"
+      },
+      {
+        "band_index": 10,
+        "p_min": 46659265.446114555,
+        "p_max": 149534532.19753733,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_010_46659265Pa_149534532Pa.json",
+        "bin_file": "grid_band_010_46659265Pa_149534532Pa.bin"
+      },
+      {
+        "band_index": 11,
+        "p_min": 158987411.4572237,
+        "p_max": 509525985.25172603,
+        "n_pressure_pts": 20,
+        "json_file": "grid_band_011_158987411Pa_509525985Pa.json",
+        "bin_file": "grid_band_011_158987411Pa_509525985Pa.bin"
+      },
+      {
+        "band_index": 12,
+        "p_min": 541735853.7514983,
+        "p_max": 1000000000.0,
+        "n_pressure_pts": 11,
+        "json_file": "grid_band_012_541735854Pa_1000000000Pa.json",
+        "bin_file": "grid_band_012_541735854Pa_1000000000Pa.bin"
+      }
+    ]
+  },
+  "saturation_curve": {
+    "n_points": 500,
+    "file_json": "saturation.json",
+    "file_bin": "saturation.bin"
+  },
+  "mass_fraction": null
+}
